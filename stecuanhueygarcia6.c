@@ -41,34 +41,34 @@ int main(void){
 
 	//The first evaluation(for only int within expression).
 	printf("The first evaluation (for only int) is: ");
-	endIntResult = x + y * x/ y - x;
+	endIntResult = intX + intY * intX/ intY - intX;
 	printf("%d\n",endIntResult);
 
 	//The second evaluation(for only int within expression).
         printf("The second evaluation (for only int) is: ");
-        endIntResult = -x - y /x * y + x;
+        endIntResult = -intX - intY /intX * intY + intX;
         printf("%d\n",endIntResult);
 
 	//The third evaluation(for only int within expression).
         printf("The third evaluation (for only int) is: ");
-        endIntResult = x + y - x / y;
+        endIntResult = intX + intY - intX / intY;
         printf("%d\n",endIntResult);
 
 	printf("--------------------------------------------------\n");
 
 	//The first evaluation(for only double within expression).
 	printf("The first evaluation (for only double) is: ");
-	endResult = x + y * x/ y - x;
+	endResult = dubX + dubY * dubY/ dubY - dubX;
         printf("%lf\n",endResult);
 
 	//The second evaluation(for only double within expression).
 	printf("The second evaluation (for only double) is: ");
-	endResult = -x - y /x * y + x;
+	endResult = -dubX - dubY /dubX * dubY + dubX;
         printf("%lf\n",endResult);
 
 	//The third evaluation(for only double within expression).
 	printf("The third evaluation (for only double) is: ");
-	endResult = x + y - x / y;
+	endResult = dubX + dubY - dubX / dubY;
         printf("%lf\n",endResult);
 
 
