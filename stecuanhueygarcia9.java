@@ -23,12 +23,12 @@ public class stecuanhueygarcia9{
 
 	if (guess > 20 )
 	{
-	System.out.println("The number you entered is higher than my number, please try again!\n");
+	System.out.println("The number you entered is higher than the specified range, please try again!\n");
 	}
 
 	else if (guess < 1 )
 	{
-        System.out.println("The number you entered is lower than my number, please try again!\n");
+        System.out.println("The number you entered is lower than the specified range, please try again!\n");
         }
 	
 	}
