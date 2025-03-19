@@ -10,13 +10,13 @@ public class stecuanhueygarcia10{
 
 		Scanner userInput = new Scanner(System.in);
 
-		int cylHeight = 0, cylRadius = 0, userOption = 0;
-	       double result = 0, radius = 0;	
+		int cylHeight = 0, cylRadius = 0;
+	       double result = 0;	
 
-		System.out.println("Welcome User! Please enter the Radius of your cylinder.\n"); 
+		System.out.println("Welcome User! Please enter the Radius of your cylinder."); 
 		cylRadius = userInput.nextInt();
 
-		System.out.println("Please enter the Height of your cylinder.\n");
+		System.out.println("Please enter the Height of your cylinder.");
 		cylHeight = userInput.nextInt();
 
  		result = area(cylRadius,cylHeight);
